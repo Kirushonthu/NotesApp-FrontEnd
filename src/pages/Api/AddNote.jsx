@@ -13,7 +13,7 @@ const Data = () => {
   try {
     e.preventDefault();
 
-    await fetch(`${import.meta.env.VITE_API_URL}/notes`, {
+        await fetch(`${import.meta.env.VITE_API_URL}/notes`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
